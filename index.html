@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/gridSystem.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>صفحه اصلی</title>
+</head>
+
+<body>
+    <!--start pre nav section -->
+    <section class="container-fluid preNavContainer">
+        <div class="row">
+            <div class="container">
+                <div class="col-xs-6 col-s-6 col-md-6 col-l-6 col-xl-6">
+                    <i class="fas fa-envelope md-hiddenElement"><span>saeed.da1994gmail.com</span></i>
+                    <i class="fas fa-phone"><span>09102007593</span></i>
+                </div>
+                <div class="col-xs-6 col-s-6 col-md-6 col-l-6 col-xl-6">
+                    <a href="https://telegram.org/" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+                    <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://facebook.com/" target="_blank" class="s-hiddenElement"><i
+                            class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/" target="_blank" class="s-hiddenElement"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://linkedin.com/" target="_blank" class="s-hiddenElement"><i
+                            class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end pre nav section -->
+    <!-- start navigaton section -->
+    <nav class="container-fluid nav" id="myNav">
+        <div class="row">
+            <div class="container">
+                <div class="col-xs-12 col-s-12 col-md-12 col-l-12 col-xl-12 p-0">
+                    <a href="#" class="logo"><i class="fas fa-graduation-cap"></i></a>
+                    <a href="#" class="navItem">خانه</a>
+                    <a href="#" class="navItem">آموزش آنلاین</a>
+                    <a href="#" class="navItem">تقویم آموزشی</a>
+                    <a href="#" class="navItem">مقالات</a>
+                    <a href="#" class="navItem">درباره ما</a>
+                    <a href="javascript:void(0);" class="hamBar" onclick="navFunc();">
+                        <div class="hamContainer relative">
+                            <i class="fas fa-bars hamOpen absolute"></i><i class="fas fa-times hamClose absolute"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+    <!-- end navigaton section -->
+    <!-- star header section -->
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-s-12 col-md-12 col-l-12 col-xl-12 p-0">
+                <figure class="relative">
+                    <div class="overlay absolute">
+                        <div class="headerContent">
+                            <h1 class="mb-20">آموزشگاه وب آکادمی</h1>
+                            <h3 class="mb-20">مبتکر روشی خلاق در آموزش برنامه نویسی</h3>
+                            <a href="#" class="headerBtn cornerRound">بیشتر بخوانید</a>
+                        </div>
+                    </div>
+                    <img src="img/h3.jpg" alt="background-header" class="imgResponsive bgHeader">
+                </figure>
+            </div>
+        </div>
+    </header>
+    <!-- end header section -->
+    <!-- start courses section -->
+    <section class="container-fluid bgCourse">
+        <div class="row">
+            <div class="sectionTitle textCenter">
+                <h5>
+                    <span>دوره های آموزشی</span>
+                </h5>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-s-6 col-md-4 col-l-4 col-xl-4">
+                    <div class="card mb-40">
+                        <div class="cardHeader relative">
+                            <div class="overlayCourse absolute">
+                                <p>دوره طراحی وبسایت</p>
+                            </div>
+                            <img src="img/web.png" alt="courses" class="imgResponsive">
+                        </div>
+                        <div class="cardBody relative">
+                            <img src="img/icons/landing-page.png" alt="icon">
+                            <div class="cardContent">
+                                <a href="#">دوره طراحی وبسایت</a>
+                                <p>دوره ی تخصصی طراحی وب سایت</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-s-6 col-md-4 col-l-4 col-xl-4">
+                    <div class="card mb-40">
+                        <div class="cardHeader relative">
+                            <div class="overlayCourse absolute">
+                                <p>دوره هوش مصنوعی</p>
+                            </div>
+                            <img src="img/ai.png" alt="course" class="imgResponsive">
+                        </div>
+                        <div class="cardBody relative">
+                            <img src="img/icons/ai.png" alt="icon">
+                            <div class="cardContent">
+                                <a href="#">دوره هوش مصنوعی</a>
+                                <p>دوره ی تخصصی هوش مصنوعی</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-s-6 col-md-4 col-l-4 col-xl-4">
+                    <div class="card mb-40">
+                        <div class="cardHeader relative">
+                            <div class="overlayCourse absolute">
+                                <p>دوره ماشین لرنینگ</p>
+                            </div>
+                            <img src="img/ml.png" alt="course" class="imgResponsive">
+                        </div>
+                        <div class="cardBody relative">
+                            <img src="img/icons/machine-learning.png" alt="icon">
+                            <div class="cardContent">
+                                <a href="#">دوره ماشین لرنینگ</a>
+                                <p>دوره ی تخصصی ماشین لرنینگ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-s-6 col-md-4 col-l-4 col-xl-4">
+                    <div class="card mb-40">
+                        <div class="cardHeader relative">
+                            <div class="overlayCourse absolute">
+                                <p>دوره رابط کاربری</p>
+                            </div>
+                            <img src="img/ui.png" alt="course" class="imgResponsive">
+                        </div>
+                        <div class="cardBody relative">
+                            <img src="img/icons/browser.png" alt="icon">
+                            <div class="cardContent">
+                                <a href="#">دوره طراحی رابط کاربری</a>
+                                <p>دوره ی تخصصی طراحی رابط کاربری</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-s-6 col-md-4 col-l-4 col-xl-4">
+                    <div class="card mb-40">
+                        <div class="cardHeader relative">
+                            <div class="overlayCourse absolute">
+                                <p>دوره پایگاه داده</p>
+                            </div>
+                            <img src="img/sql.png" alt="course" class="imgResponsive">
+                        </div>
+                        <div class="cardBody relative">
+                            <img src="img/icons/server.png" alt="icon">
+                            <div class="cardContent">
+                                <a href="#">دوره طراحی پایگاه داده</a>
+                                <p>دوره ی تخصصی پایگاه داده</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-s-6 col-md-4 col-l-4 col-xl-4">
+                    <div class="card mb-40">
+                        <div class="cardHeader relative">
+                            <div class="overlayCourse absolute">
+                                <p>دوره فتوشاپ</p>
+                            </div>
+                            <img src="img/ps.png" alt="course" class="imgResponsive">
+                        </div>
+                        <div class="cardBody relative">
+                            <img src="img/icons/photoshop.png" alt="icon">
+                            <div class="cardContent">
+                                <a href="#">دوره طراحی فتوشاپ</a>
+                                <p>دوره ی تخصصی طراحی فتوشاپ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end courses section -->
+    <!-- star about us section -->
+    <section class="container-fluid">
+        <div class="row">
+            <div class="sectionTitle textCenter">
+                <h5>
+                    <span>درباره ما</span>
+                </h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-s-12 col-md-12 col-l-12 col-xl-5 aboutUsImg">
+                <img src="img/bus2.png" alt="bussiness man" class="imgResponsive">
+            </div>
+            <div class="col-xs-12 col-s-12 col-md-12 col-l-12 col-xl-7">
+                <div class="aboutUsContainer cornerRound relative">
+                    <h5 class="relative">درباره ما</h5>
+                    <p>تیم برنرز لی، مخترع وب، با برپایی یک سایت وب در اوت ۱۹۹۱، نام خود را به عنوان نخستین سازندهٔ وب
+                        در تاریخ نگاشت. او در نخستین وب سایتش، از اَبَرمتن و پیوندی برای ایمیل (پست الکترونیک) استفاده
+                        کرده بود.
+                        در آغاز، وب سایت‌ها با کُدهای ساده HTML نوشته می‌شدند، گونه‌ای از زبان نشانه‌گذاری که ساختار
+                        ساده‌ای به وب گاه‌ها می‌داد.
+                    </p>
+                    <a href="#" class="aboutUsBtn absolute">ادامه مطلب</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end about us section -->
+    <!-- start teachers section -->
+    <section class="container-fluid bgTeachers mt-40">
+        <div class="row">
+            <div
+                class="col-xs-6 col-s-6 col-md-6 col-l-6 col-xl-6 col-xs-offset-3 col-s-offset-3 col-md-offset-3 col-l-offst-3 col-xl-offset-3 relative">
+                <img src="img/teachers.png" alt="teachers" class="imgResponsive teachersImg">
+                <div class="teachersContentWrapper cornerRound textCenter absolute">
+                    <h4>مدرسین آکادمی <span class="cornerRound">آموزش</span></h4>
+                    <p>مدرسین مجرب این مجموعه همواره در یک دوره 6 شش ماهه در کنار آموزش ها همراه شما هستند</p>
+                    <a href="#" class="teachersBtn">بیشتر </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end teachers section -->
+    <!-- start stat section -->
+    <section class="container-fluid statWrapper mt-300">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-s-12 col-md-3 col-l-3 col-xl-3 textCenter">
+                        <div class="statLogo"><i class="fas fa-book"></i></div>
+                        <div class="statCount">321</div>
+                        <p class="statTitle">مقالات</p>
+                    </div>
+                    <div class="col-xs-12 col-s-12 col-md-3 col-l-3 col-xl-3 textCenter">
+                        <div class="statLogo"><i class="fas fa-user-graduate"></i></div>
+                        <div class="statCount">12450</div>
+                        <p class="statTitle">کاربران فعال</p>
+                    </div>
+                    <div class="col-xs-12 col-s-12 col-md-3 col-l-3 col-xl-3 textCenter">
+                        <div class="statLogo"><i class="fas fa-user-tie"></i></div>
+                        <div class="statCount">21</div>
+                        <p class="statTitle">استاید</p>
+                    </div>
+                    <div class="col-xs-12 col-s-12 col-md-3 col-l-3 col-xl-3 textCenter">
+                        <div class="statLogo"><i class="fas fa-trophy"></i></div>
+                        <div class="statCount">10</div>
+                        <p class="statTitle">جوایز</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end stat section -->
+    <!-- start topics section -->
+    <section class="container-fluid topicWrapper mt-300">
+        <div class="row">
+            <div class="sectionTitle textCenter">
+                <h5>
+                    <span>جدیدترین مطالب آکادمی</span>
+                </h5>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-s-6 col-md-3 col-l-3 col-xl-3">
+                        <div class="card mt-40">
+                            <div class="cardHeader">
+                                <img src="img/php.jpg" class="imgResponsive topicImg" alt="">
+                            </div>
+                            <div class="cardBody relative">
+                                <div class="cardDate absolute">
+                                    <div class="dateNum">27</div>
+                                    <div class="dateMonth">دی</div>
+                                </div>
+                                <a href="#">دوره متخصص PHP</a>
+                                <p>در این جلسه به ادامه مباحث شی گرایی می پردازیم</p>
+                            </div>
+                            <div class="cardFooter textCenter">
+                                <ul>
+                                    <li><i class="far fa-eye"></i><span>723</span></li>
+                                    <li><i class="far fa-comment-alt"></i><span>28</span></li>
+                                    <li><i class="far fa-heart"></i><span>120</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-s-6 col-md-3 col-l-3 col-xl-3">
+                        <div class="card mt-40">
+                            <div class="cardHeader">
+                                <img src="img/frontend.jpg" class="imgResponsive topicImg" alt="">
+                            </div>
+                            <div class="cardBody relative">
+                                <div class="cardDate absolute">
+                                    <div class="dateNum">27</div>
+                                    <div class="dateMonth">دی</div>
+                                </div>
+                                <a href="#">دوره متخصص طراحی وب</a>
+                                <p>در این جلسه به ادامه مباحث شی گرایی می پردازیم</p>
+                            </div>
+                            <div class="cardFooter textCenter">
+                                <ul>
+                                    <li><i class="far fa-eye"></i><span>723</span></li>
+                                    <li><i class="far fa-comment-alt"></i><span>28</span></li>
+                                    <li><i class="far fa-heart"></i><span>120</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-s-6 col-md-3 col-l-3 col-xl-3">
+                        <div class="card mt-40">
+                            <div class="cardHeader">
+                                <img src="img/js.jpg" class="imgResponsive topicImg" alt="">
+                            </div>
+                            <div class="cardBody relative">
+                                <div class="cardDate absolute">
+                                    <div class="dateNum">27</div>
+                                    <div class="dateMonth">دی</div>
+                                </div>
+                                <a href="#">دوره متخصص جاوااسکریپت</a>
+                                <p>در این جلسه به ادامه مباحث شی گرایی می پردازیم</p>
+                            </div>
+                            <div class="cardFooter textCenter">
+                                <ul>
+                                    <li><i class="far fa-eye"></i><span>723</span></li>
+                                    <li><i class="far fa-comment-alt"></i><span>28</span></li>
+                                    <li><i class="far fa-heart"></i><span>120</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-s-6 col-md-3 col-l-3 col-xl-3">
+                        <div class="card mt-40">
+                            <div class="cardHeader">
+                                <img src="img/wp.jpg" class="imgResponsive topicImg" alt="">
+                            </div>
+                            <div class="cardBody relative">
+                                <div class="cardDate absolute">
+                                    <div class="dateNum">27</div>
+                                    <div class="dateMonth">دی</div>
+                                </div>
+                                <a href="#">دوره متخصص وردپرس</a>
+                                <p>در این جلسه به ادامه مباحث شی گرایی می پردازیم</p>
+                            </div>
+                            <div class="cardFooter textCenter">
+                                <ul>
+                                    <li><i class="far fa-eye"></i><span>723</span></li>
+                                    <li><i class="far fa-comment-alt"></i><span>28</span></li>
+                                    <li><i class="far fa-heart"></i><span>120</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-s-6 col-md-3 col-l-3 col-xl-3">
+                        <div class="card mt-40">
+                            <div class="cardHeader">
+                                <img src="img/android.jpg" class="imgResponsive topicImg" alt="">
+                            </div>
+                            <div class="cardBody relative">
+                                <div class="cardDate absolute">
+                                    <div class="dateNum">27</div>
+                                    <div class="dateMonth">دی</div>
+                                </div>
+                                <a href="#">دوره متخصص اندروید</a>
+                                <p>در این جلسه به ادامه مباحث شی گرایی می پردازیم</p>
+                            </div>
+                            <div class="cardFooter textCenter">
+                                <ul>
+                                    <li><i class="far fa-eye"></i><span>723</span></li>
+                                    <li><i class="far fa-comment-alt"></i><span>28</span></li>
+                                    <li><i class="far fa-heart"></i><span>120</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-s-6 col-md-3 col-l-3 col-xl-3">
+                        <div class="card mt-40">
+                            <div class="cardHeader">
+                                <img src="img/practical-laravel.jpg" class="imgResponsive topicImg" alt="">
+                            </div>
+                            <div class="cardBody relative">
+                                <div class="cardDate absolute">
+                                    <div class="dateNum">27</div>
+                                    <div class="dateMonth">دی</div>
+                                </div>
+                                <a href="#">دوره متخصص لاراول</a>
+                                <p>در این جلسه به ادامه مباحث شی گرایی می پردازیم</p>
+                            </div>
+                            <div class="cardFooter textCenter">
+                                <ul>
+                                    <li><i class="far fa-eye"></i><span>723</span></li>
+                                    <li><i class="far fa-comment-alt"></i><span>28</span></li>
+                                    <li><i class="far fa-heart"></i><span>120</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-s-6 col-md-3 col-l-3 col-xl-3">
+                        <div class="card mt-40">
+                            <div class="cardHeader">
+                                <img src="img/ui-1.jpg" class="imgResponsive topicImg" alt="">
+                            </div>
+                            <div class="cardBody relative">
+                                <div class="cardDate absolute">
+                                    <div class="dateNum">27</div>
+                                    <div class="dateMonth">دی</div>
+                                </div>
+                                <a href="#">دوره متخصص UI</a>
+                                <p>در این جلسه به ادامه مباحث شی گرایی می پردازیم</p>
+                            </div>
+                            <div class="cardFooter textCenter">
+                                <ul>
+                                    <li><i class="far fa-eye"></i><span>723</span></li>
+                                    <li><i class="far fa-comment-alt"></i><span>28</span></li>
+                                    <li><i class="far fa-heart"></i><span>120</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-s-6 col-md-3 col-l-3 col-xl-3">
+                        <div class="card mt-40">
+                            <div class="cardHeader">
+                                <img src="img/prog.jpg" class="imgResponsive topicImg" alt="">
+                            </div>
+                            <div class="cardBody relative">
+                                <div class="cardDate absolute">
+                                    <div class="dateNum">27</div>
+                                    <div class="dateMonth">دی</div>
+                                </div>
+                                <a href="#">دوره مبتدی برنامه نویسی </a>
+                                <p>در این جلسه به ادامه مباحث شی گرایی می پردازیم</p>
+                            </div>
+                            <div class="cardFooter textCenter">
+                                <ul>
+                                    <li><i class="far fa-eye"></i><span>723</span></li>
+                                    <li><i class="far fa-comment-alt"></i><span>28</span></li>
+                                    <li><i class="far fa-heart"></i><span>120</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end topics section -->
+    <!-- start faq section -->
+    <section class="container-fluid">
+        <div class="sectionTitle textCenter">
+            <h5>
+                <span>سوالات متداول</span>
+            </h5>
+        </div>
+        <div class="row faqBg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-s-12 col-md-6 col-l-6 col-xl-6">
+                        <div class="rightFaqWrapper mt-50 mb-50 cornerRound">
+                            <div class="rightTextFaqWrapper">
+                                <h5><i class="fas fa-headset"></i>پشتیبانی 24 ساعته</h5>
+                                <p>پشتیبانی 24 ساعته در هفت روز هفته بصورت کاملا رایگان</p>
+                            </div>
+                            <div class="rightTextFaqWrapper">
+                                <h5><i class="far fa-bell"></i>پشتیبانی با منتورینگ</h5>
+                                <p>پشتیبانی 24 ساعته در هفت روز هفته بصورت کاملا رایگان</p>
+                            </div>
+                            <div class="rightTextFaqWrapper">
+                                <h5><i class="far fa-question-circle"></i>امکان پرسش و پاسخ در انجمن</h5>
+                                <p>پشتیبانی 24 ساعته در هفت روز هفته بصورت کاملا رایگان</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-s-12 col-md-6 col-l-6 col-xl-6">
+                        <div class="leftFaqWrapper mt-50 mb-50 cornerRound">
+                            <div class="tab">
+                                <input type="checkbox" id="check1" class="check">
+                                <label for="check1" class="tabLabel">آیا این دوره برای من مفید بوده است ؟<i
+                                        class="fas fa-chevron-left"></i></label>
+                                <div class="tabContent">این دوره ومحتوای آن بسیار مفید و کاربردی بوده است</div>
+                            </div>
+                            <div class="tab">
+                                <input type="checkbox" id="check2" class="check">
+                                <label for="check2" class="tabLabel">دسترسی به رفرنس های اصلی موجود خواهد بود؟<i
+                                        class="fas fa-chevron-left"></i></label>
+                                <div class="tabContent">لورم ایپسلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                                    چاپ و با استفاده از طراحان گرافیک است.یپسلورم ایپسوم متن ساختگی با تولید سادگی
+                                    نامفهوم از صنعت
+                                    چاپ و با استفاده از طراحان گرافیک است.یپسلورم ایپسوم متن ساختگی با تولید سادگی
+                                    نامفهوم از صنعت
+                                    چاپ و با استفاده از طراحان گرافیک است.یپسلورم ایپسوم متن ساختگی با تولید سادگی
+                                    نامفهوم از صنعت
+                                    چاپ و با استفاده از طراحان گرافیک است.
+                                </div>
+                            </div>
+                            <div class="tab">
+                                <input type="checkbox" id="check3" class="check">
+                                <label for="check3" class="tabLabel">مدرس دوره چه کسی خواهد بود ؟<i
+                                        class="fas fa-chevron-left"></i></label>
+                                <div class="tabContent">
+                                    آقای سعید دشتی
+                                </div>
+                            </div>
+                            <div class="tab">
+                                <input type="checkbox" id="check4" class="check">
+                                <label for="check4" class="tabLabel">آیا شرایط ویژه ای جهت پرداخت وجود دارد؟<i
+                                        class="fas fa-chevron-left"></i></label>
+                                <div class="tabContent">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                                    استفاده از طراحان گرافیک است.لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                                    چاپ و با استفاده از طراحان گرافیک است.
+                                </div>
+                            </div>
+                            <div class="tab">
+                                <input type="checkbox" id="check5" class="check">
+                                <label for="check5" class="tabLabel">آیا تمامی سرفصل ها تدریس می شود؟<i
+                                        class="fas fa-chevron-left"></i></label>
+                                <div class="tabContent">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                                    استفاده از طراحان گرافیک است. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                                    چاپ و با استفاده از طراحان گرافیک است لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+                                    از صنعت
+                                    چاپ و با استفاده از طراحان گرافیک است.
+                                </div>
+                            </div>
+                            <div class="tab">
+                                <input type="checkbox" id="check6" class="check">
+                                <label for="check6" class="tabLabel">مدت زمان تدریس چند ساعت خواهد بود؟<i
+                                        class="fas fa-chevron-left"></i></label>
+                                <div class="tabContent">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                                    استفاده از طراحان گرافیک است.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end faq section -->
+    <!-- start footer section -->
+    <section class="containerfluid footerWrapper mt-200">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-s-6 col-md-6 col-l-3 col-xl-3">
+                        <div class="aboutFooter">
+                            <h4><i class="fas fa-graduation-cap"></i>آموزشگاه وب آکادمی</h4>
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-s-6 col-md-6 col-l-3 col-xl-3">
+                        <div class="footerListWrapper">
+                            <h5>خدمات ما</h5>
+                            <ul>
+                                <li><i class="fas fa-chevron-left"></i><a href="#">دوره های آموزشی</a></li>
+                                <li><i class="fas fa-chevron-left"></i><a href="#">واحد آموزش</a></li>
+                                <li><i class="fas fa-chevron-left"></i><a href="#">ارتباط با مدیریت</a></li>
+                                <li><i class="fas fa-chevron-left"></i><a href="#">واحد فروش</a></li>
+                                <li><i class="fas fa-chevron-left"></i><a href="#">واحد پشتیبانی</a></li>
+                                <li><i class="fas fa-chevron-left"></i><a href="#">امور آموزشگاه ها</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-s-6 col-md-6 col-l-3 col-xl-3">
+                        <div class="footerSocialWrapper">
+                            <h5>ما را در شبکه های اجتماعی دنبال کنید</h5>
+                            <div class="sociFooter">
+                                <ul>
+                                    <li><a href="https://telegram.org/" target="_blank"><i
+                                                class="fab fa-telegram-plane"></i></a></li>
+                                    <li> <a href="https://instagram.com/" target="_blank"><i
+                                                class="fab fa-instagram"></i></a></li>
+                                    <li> <a href="https://facebook.com/" target="_blank"><i
+                                                class="fab fa-facebook"></i></a>
+                                    </li>
+                                    <li> <a href="https://twitter.com/" target="_blank"><i
+                                                class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://linkedin.com/" target="_blank"><i
+                                                class="fab fa-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                                <form action="" class="newsletter">
+                                    <input type="text" placeholder="اشتراک در خبرنامه ...">
+                                    <input type="submit" value="عضویت">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-s-6 col-md-6 col-l-3 col-xl-3">
+                        <div class="addressWrapper">
+                            <h5>راه های ارتباط با ما</h5>
+                            <ul>
+                                <li><i class="fas fa-envelope"></i>saeed.da1994@gmail.com</li>
+                                <li><i class="fas fa-phone"></i>09102007593</li>
+                                <li><i class="fas fa-map-marker-alt"></i> جردن، بلوار صبا، پلاک 1</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyRight">
+                <p>تمامی حقوق این وب سایت متعلق است به آموزشگاه وب آکادمی</p>
+            </div>
+        </div>
+    </section>
+    <!-- end footer section -->
+</body>
+<script src="js/main.js"></script>
+
+</html>
